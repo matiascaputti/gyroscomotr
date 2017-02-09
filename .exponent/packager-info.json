@@ -1,8 +1,8 @@
 {
-  "exponentServerPort": 19002,
-  "packagerPort": 19001,
-  "packagerPid": 28991,
+  "exponentServerPort": 19003,
+  "packagerPort": 19004,
+  "packagerPid": 31555,
   "exponentServerNgrokUrl": "https://nh-jmh.test123.gyroscomotr.exp.direct",
   "packagerNgrokUrl": "https://packager.nh-jmh.test123.gyroscomotr.exp.direct",
-  "ngrokPid": 29013
+  "ngrokPid": 31574
 }

@@ -104,7 +104,7 @@ class App extends React.Component {
           <Text style={styles.subtitle}>Move your device to reach following position:</Text>
           <Text style={styles.info}>
             { win ?
-              `You win in ${time} seconds ✅`  :
+              `You won in ${time} seconds ✅`  :
               `X: ${gyroscopeSolution.x} | Y: ${gyroscopeSolution.y} | Z: ${gyroscopeSolution.z}`
             }
           </Text>
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
   subtitle: {
     textAlign: 'center',
     color: '#34495e',
-    fontSize: 18,
+    fontSize: 16,
     fontStyle: 'italic'
   },
   info: {

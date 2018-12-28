@@ -1,14 +1,18 @@
 {
-  "name": "Gyroscomotr",
+  "name": "Gyroscope",
   "version": "0.0.0",
   "description": "Move your device and reach given position in the shortest time!",
-  "author": null,
+  "main": "node_modules/expo/AppEntry.js",
   "private": true,
-  "main": "main.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
   "dependencies": {
-    "@exponent/vector-icons": "~4.0.0",
-    "exponent": "^13.1.0",
-    "react": "~15.4.0",
-    "react-native": "https://github.com/exponent/react-native/archive/sdk-13.0.3.tar.gz"
+    "expo": "^30.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz"
   }
 }
